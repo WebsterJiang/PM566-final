@@ -1,6 +1,6 @@
 ---
 title: "PM566 Final Project"
-author: "Wenbo Jiang"
+author: "Wenbo Jiangg"
 output: 
     html_document:
         toc: TRUE

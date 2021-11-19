@@ -1,1 +1,9 @@
-
+name: "Webster's website"
+navbar:
+  title: "My Website"
+  left:
+    - text: "Webster's Home"
+      href: index.html
+output:
+  html_document:
+    theme: paper

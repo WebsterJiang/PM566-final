@@ -5,8 +5,6 @@ output:
   html_document:
     toc: yes
     toc_float: yes
-  pdf_document:
-    toc: yes
 ---
 PDF version of my report:
 https://github.com/WebsterJiang/PM566-final/raw/main/Report/Report.pdf
@@ -204,7 +202,7 @@ datatable(tab)
 
 ## Preliminary Results:
 We checked the dimension of our data and noticed that there are 3023 total observations and 17 different factors for each of our observation. Then, I did some summaries for the key variables such as Income, GDP, Covid-19 death cases and all caused death cases. I found people living in Mississippi has the the lowest median income which is $45081 and people living in District of Coloumbia has the the highest median income which is $86420. Also, I noticed that the lowest death cases caused by COVID-19 is in Vermont which equals to 283 and highest death cases caused by COVID-19 in California which equals to 73920 and mean death cases caused by COVID-19 in the US is 20504. For the variable GDP, I found that the state Vermont also has the lowest GDP which equals to 33278 million dollar and the state California has the highest GDP which equals to 3120386 million dollar. 
-```{r,echo=FALSE}
+```{r, echo=FALSE}
 # Using USmap to show the number of Covid_19 death cases in each state.
 covid1<-as.data.table(covid1 %>% 
   group_by(State) %>% 

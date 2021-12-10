@@ -9,6 +9,9 @@ output:
     toc: yes
 ---
 
+PDF version of my report:
+https://github.com/WebsterJiang/PM566-final/raw/main/Report/Report.pdf
+
 ## Introduction:
 At the beginning of 2020, Covid-19 affects people's life globally. Every countries enacted several policy to deal with this disease. The increasing unemployment, decreasing GDP, higher inflation and so on are signs to reflect that the economic market is under tremendous risk. For this project, I am wondering whether the different in people's income would influence the death cases by Covid-19 in the US. Also, I would consider GDP level during Covid-19 period as the confounding variable in our analysis. 
 

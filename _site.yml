@@ -1,10 +1,19 @@
-name: "Webster's website"
+name: "my-website"
 output_dir: "."
 navbar:
-  title: "My Website"
+  title: "PM566 Final project"
   left:
-    - text: "Webster's Home"
+    - text: "Final project"
       href: index.html
+    - text: "Introduction to Covid-19"
+      href: Introduction.html 
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/USCbiostats/PM566
+    - text: "PM566 Home"
+      href: https://elastic-khorana-70231e.netlify.app/
 output:
   html_document:
-    theme: paper
+    theme: cosmo
+    css: styles.css
+

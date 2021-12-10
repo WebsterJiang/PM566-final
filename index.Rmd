@@ -8,7 +8,6 @@ output:
   pdf_document:
     toc: yes
 ---
-
 PDF version of my report:
 https://github.com/WebsterJiang/PM566-final/raw/main/Report/Report.pdf
 
